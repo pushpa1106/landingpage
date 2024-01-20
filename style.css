@@ -1,0 +1,154 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    overflow: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #15203B; /* Set the background color */
+    color: #fff; /* Set text color to white for better contrast */
+    padding: 10px;
+}
+
+.imag {
+    margin: 0;
+    padding: 0 30px; /* Add padding to the left and right */
+}
+
+.imag-container {
+    background-color: #15203B; /* Set background color for the container */
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.files {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.files li {
+    margin-right: 100px; /* Adjust spacing between list items */
+    cursor: pointer;
+}
+
+.files li:last-child {
+    margin-right: 0; /* Remove margin from the last li to prevent extra spacing */
+}
+
+.search {
+    margin-left: auto;
+    padding: 0 30px; /* Add padding to the left and right */
+}
+
+.imag img {
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra spacing */
+}
+
+.container_two{
+    background-color: #15203B;
+    padding-left: 38px;
+}
+
+.custom-text {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+
+}
+
+ .custom_text_two{
+    /* Original styles */
+margin-top: 4px;
+color: white;
+font-size: 20px;
+font-family: Poppins;
+font-weight: 500;
+word-wrap: break-word;
+
+/* Updated styles */
+/* $811.7B */
+color: #14FF00;
+font-size: 20px;
+font-family: Poppins;
+font-weight: 700;
+word-wrap: break-word;
+ }
+
+ .items {
+    background-color: #15203B;
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #15203B;
+}
+
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+td img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 10px; /* Add some spacing to the right of the image */
+}
+
+td.positive-change {
+    color: #14FF00;
+}
+
+td.negative-change {
+    color: #FF0000;
+}
+
+.view-all-button {
+    bottom: 10px; /* Adjust the value as needed */
+    right: 20px; /* Adjust the value as needed */
+    width: 200px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 500px;
+    background: linear-gradient(90deg, #3DD8EE 0%, #0997E8 100%);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 700;
+    cursor: pointer; /* Add pointer cursor for better usability */
+}
+
+
+/* Additional styling for the borders or any other specific styles you want */
